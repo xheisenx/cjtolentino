@@ -2,81 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CJ Tolentino</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!----Font awesome cdn  font icon css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Your Name</title>
 </head>
 <body>
-     <div class="hero-header">
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-                    <i class="fa-solid fa-c"></i>
-                    <div class="logo-text">Carl Jeffrey</div>
-                </div>
-                <nav>
-                    <div class="togglebtn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <ul class="navlinks">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="container">
-                 <div class="hero-pic">
-                    <img src="images/profilepic.jpg" alt="profile pic">
-                 </div>
-                 <div class="hero-text">
-                    <h5>Hi I'm <span class="input">Entry Level Web Developer</span></h5>
-                    <h1>Carl Jeffrey</h1>
-                    <p> 
-                    </p>
-
-                    <div class="btn-group">
-                       <a href="#" class="btn active">Download CV</a>
-                       <a href="tel:09638891846" class="btn">Contact</a>
-                    </div>
-
-                    <div class="social">
-                        <a href="https://facebook.com/cjexistentialist"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="linked.in/carl-jeffrey-tolentino-"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
-                    </div>
-                 </div>
-            </div>
+    <div class="grid-2">
+        <div class="section-1">
+            <i class="fas fa-code fa-5x white"></i>
+            <h2>Carl Jeffrey Tolentinio</h2>
+            <p>Caba, La Union.</p>
+            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
         </div>
-     </div>
-     <!---typed js for typing text effect-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-     <script>
-        /** creating button click show hide navbar **/
-        var togglebtn=document.querySelector(".togglebtn");
-        var nav=document.querySelector(".navlinks");
-        var links=document.querySelector(".navlinks li");
+        <div class="section-2">
+            <h2>About</h2>
+            <p>Aspiring Full Stack Web-Developer, Tech Enthusiast.</p>
+            
+            <p></p>
 
-        togglebtn.addEventListener("click", function(){
-            this.classList.toggle("click");
-            nav.classList.toggle("open");
-        })
-
-        var typed=new Typed(".input",{
-            strings:["Web Developer","Encoder","Gamer"],
-            typedSpeed:70,
-            backSpeed:55,
-            loop:true
-        })
-     </script>
+            <h2>Skills</h2>
+            <p>Back-end developer(PHP), Hardware and Software Troubleshooting, Network Configuration</p>
+            <h2>Projects</h2>
+            <a href="#">PC BOY E-commerce Website</a>
+            <a href="#">Local Theater Reservation</a>
+            <h2>Contact</h2>
+            <p>tolljeeff@email.com</p>
+            <p>+63 963 889 1846</p>
+        </div>
+    </div>
 </body>
 </html>
